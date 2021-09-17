@@ -22,3 +22,4 @@ function showMenu() {
 
 window.addEventListener("resize", showMenu);
 menu.addEventListener("click", menuToggle);
+showMenu();
