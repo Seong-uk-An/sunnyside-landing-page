@@ -16,25 +16,29 @@
 </head>
 
 <body>
-  <div class="header">
+  <div class="header" id="header">
     <div class="header-absolute">
       <div class="header-texts">
         <div class="home">
           <img class="header-logo" src="./images/logo.svg" alt="logo">
         </div>
         <div class="menus">
-          <div class="menu">About</div>
-          <div class="menu">Services</div>
-          <div class="menu">Projects</div>
-          <div class="menu menu-contact">
+          <div class="menu hidden"><a href="#about">About</a></div>
+          <div class="menu hidden"><a href="#services">Services</a></div>
+          <div class="menu hidden"><a href="#projects">Projects</a></div>
+          <div class="menu hidden menu-contact">
             <div class="menu-contact-text">CONTACT</div>
+          </div>
+          <div class="hamburger-div">
+            <img class="hamburger" src="./images/icon-hamburger.svg" alt="hamburger" />
           </div>
         </div>
       </div>
-      <div class="title">WE ARE CREAIVES</div>
+      <div class="title">WE ARE CREATIVES</div>
       <img class="arrow" src="./images/icon-arrow-down.svg" alt="icon-arrow-down" />
     </div>
-    <img class="header-image" src="./images/desktop/image-header.jpg" alt="image-header" />
+    <div class="header-image-div">
+    </div>
   </div>
 
   <div class="grid">
@@ -47,17 +51,16 @@
             grow fast. Engage your clients through compelling visuals that do most
             of the marketing for you.
           </p>
-          <div class="more1">LEARN MORE</div>
-          <div class="more1-underline"></div>
+          <div class="more1"><a href="#header">LEARN MORE</a></div>
         </div>
       </div>
     </div>
     <div class="image-div">
-      <img class="grid-image" src="./images/desktop/image-transform.jpg" alt="image-transform" />
+      <img class="grid-image egg" src="./images/desktop/image-transform.jpg" alt="image-transform" />
     </div>
 
     <div class="image-div">
-      <img class="grid-image" src="./images/desktop/image-stand-out.jpg" alt="image-stand-out" />
+      <img class="grid-image cup" src="./images/desktop/image-stand-out.jpg" alt="image-stand-out" />
     </div>
     <div class="row2" id="services">
       <div class="row2-texts">
@@ -68,8 +71,7 @@
             photographers, videographers, and copywriters, we’ll build and extend
             your brand in digital places.
           </p>
-          <div class="more2">LEARN MORE</div>
-          <div class="more2-underline"></div>
+          <div class="more2"><a href="#header">LEARN MORE</a></div>
         </div>
       </div>
     </div>
@@ -122,10 +124,10 @@
     </div>
   </div>
   <div class="footer-images">
-    <img class="footer-image" src="./images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles" />
-    <img class="footer-image" src="./images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange" />
-    <img class="footer-image" src="./images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone" />
-    <img class="footer-image" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes" />
+    <div class="footer-image footer-image1"></div>
+    <div class="footer-image footer-image2"></div>
+    <div class="footer-image footer-image3"></div>
+    <div class="footer-image footer-image4"></div>
   </div>
   <div class="footer">
     <svg class="footer-logo" viewBox="30 -10 60 60" width="300" height="85" xmlns="http://www.w3.org/2000/svg">
