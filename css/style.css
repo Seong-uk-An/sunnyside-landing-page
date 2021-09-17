@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Barlow", sans-serif;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  p {
+    word-break: break-word;
+  }
+
+  .header-image {
+    width: 100vw;
+    z-index: -1;
+  }
+
+  .header-absolute {
+    position: absolute;
+    width: 100%;
+  }
+
+  .header-texts {
+    margin: 4% 5% 0 3%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 100%;
+  }
+
+  .home {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .menus {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .menu {
+    margin-left: 6%;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  .menu-contact {
+    display: table;
+    color: black;
+    background-color: white;
+    border-radius: 100rem;
+    height: 100%;
+    text-align: center;
+    padding: 1% 4% 1% 4%;
+    font-family: "Fraunces", serif;
+    font-size: 0.9rem;
+  }
+
+  .menu-contact:hover {
+    display: table;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100rem;
+    height: 100%;
+    text-align: center;
+    padding: 1% 4% 1% 4%;
+    font-family: "Fraunces", serif;
+    font-size: 0.9rem;
+  }
+
+  .menu-contact-text {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .title {
+    margin-top: 6%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1rem;
+    font-family: "Fraunces", serif;
+  }
+
+  .arrow {
+    margin-top: 8%;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+
+  .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: repeat(3, 75vh);
+  }
+
+  .row1,
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .row1-texts,
+  .row2-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row1-texts-child,
+  .row2-texts-child {
+    width: 67%;
+  }
+
+  .subtitle {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    color: hsl(232, 10%, 55%);
+    margin: 3rem 0;
+  }
+
+  .more1,
+  .more2 {
+    display: inline;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .more1 {
+    border-bottom: 8px solid rgba(250, 212, 0, 0.4);
+  }
+
+  .more1:hover {
+    border-bottom: 8px solid rgba(250, 212, 0, 1);
+  }
+
+  .more2 {
+    border-bottom: 8px solid rgba(254, 120, 103, 0.4);
+  }
+
+  .more2:hover {
+    border-bottom: 8px solid rgba(254, 120, 103, 1);
+  }
+
+  .grid-image,
+  .row3-column1,
+  .row3-column2 {
+    width: 50vw;
+  }
+
+  .row3-column1,
+  .row3-column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+
+  .row3-column1 {
+    background: url("../images/desktop/image-graphic-design.jpg");
+  }
+
+  .row3-column2 {
+    background: url("../images/desktop/image-photography.jpg");
+    color: hsl(198, 62%, 26%);
+  }
+
+  .row3-column1-subtitle,
+  .row3-column2-subtitle {
+    font-family: "Fraunces", serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+
+  .row3-column1-paragraph,
+  .row3-column2-paragraph {
+    width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.08rem;
+  }
+
+  .clients-page {
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clients-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+    color: hsl(210, 4%, 67%);
+  }
+
+  .clients {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 10rem;
+  }
+
+  .attribution {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
