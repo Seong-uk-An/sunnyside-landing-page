@@ -2,8 +2,6 @@ const fourMenus = document.querySelectorAll(".menu");
 const menu = document.querySelector(".hamburger");
 const menuBubble = document.querySelector(".talk-bubble");
 
-showMenu();
-
 function menuToggle() {
   menuBubble.classList.toggle("hidden");
 }
@@ -19,8 +17,10 @@ function showMenu() {
     fourMenus.forEach((element) => {
       element.classList.remove("hidden");
     });
+    menuBubble.classList.add("hidden");
   }
 }
 
 window.addEventListener("resize", showMenu);
 menu.addEventListener("click", menuToggle);
+showMenu();
