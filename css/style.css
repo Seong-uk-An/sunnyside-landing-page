@@ -48,6 +48,75 @@
     width: 10rem;
   }
 
+  .hamburger-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 10px;
+  }
+
+  .hamburger {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .talk-bubble {
+    padding: 0;
+    margin: 80px 20px 0 0;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .tri-right.btm-right:before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 0;
+    bottom: 360px;
+    border: 20px solid;
+    border-color: transparent #fff #fff transparent;
+  }
+
+  .talktext > a,
+  .talktext > div {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .talktext > a {
+    color: #a7abae;
+  }
+
+  .talktext {
+    margin-top: 30px;
+    height: 300px;
+    text-align: left;
+    line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .contact {
+    font-family: "Fraunces", serif;
+    color: black;
+    background-color: #fad400;
+    border-radius: 50000px;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .title {
     margin-top: 85px;
     text-align: center;
@@ -63,6 +132,7 @@
     margin-top: 60px;
     margin-left: 50%;
     transform: translate(-50%);
+    z-index: 0;
   }
 
   .grid {
