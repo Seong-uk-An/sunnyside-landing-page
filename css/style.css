@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Fraunces:wght@700;900&display=swap");
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1px) and (max-width: 1000px) {
   body {
     margin: 0%;
     padding: 0%;
