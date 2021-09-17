@@ -9,7 +9,8 @@ function menuToggle() {
 }
 
 function showMenu() {
-  if (window.innerWidth < 1000) {
+  if (document.documentElement.clientWidth < 1000) {
+    console.log("a");
     menu.classList.remove("hidden");
     fourMenus.forEach((element) => {
       element.classList.add("hidden");
