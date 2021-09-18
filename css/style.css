@@ -494,6 +494,7 @@
   }
 
   .menu-contact-text {
+    font-size: 1rem;
     display: table-cell;
     vertical-align: middle;
   }
